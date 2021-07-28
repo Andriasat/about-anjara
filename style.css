@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.about{
+    height: 100vh;
+    width: 100%;
+    background-image: url(wall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+span{
+    color: darkblue;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: darkblue;
+    transition: .4s;
+}
+
+.btn:hover{
+    transform:scale(1.1)
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    transition: translateY(-50%);
+}
+
+.profil{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 51%;
+    left: 25%;
+}
+
+.isaia{
+    color: white;
+    position: absolute;
+    margin: 20px 0px 20px;
+    font-size: 10px;
+    top: 10%;
+    left: 8%;
+}
+
+h3{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 50px;
+}
+h5{
+    color: ghostwhite;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.partage{
+    position: absolute;
+    top: 90%;
+    left: 8%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.partage p{
+    color: white;
+    font-size: 17px;
+    margin-right: 60px;
+}
+.partage .ms a{
+   color: white;
+   display: inline-block;
+   margin-right: 15px;
+   transition: transform .3s;
+}
+
+.partage .ms{
+    top: 90%;
+    left: 67%;
+}
+
+.partage .ms a:hover{
+    transform: scale(1.6);
+ }
+
+.atout{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    font-size: 30px;
+}
+
+.log{
+    width: 30px;
+    height: 30px;
+}
+
+.logika{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+}
+
+.dipl{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+
+.exp{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+
+.coms1{
+    font-family: 'lucida calligraphy';
+    color: grey;
+    font-size: 15px;
+    position: absolute;
+    top: 14%;
+    left: 18%;
+
+}
+
+.coms2{
+    font-family: 'lucida calligraphy';
+    color: grey;
+    font-size: 15px;
+    position: absolute;
+    top: 37%;
+    left: 18%;
+
+}
+
+.coms3{
+    font-family: 'lucida calligraphy';
+    color: grey;
+    font-size: 15px;
+    position: absolute;
+    top: 62%;
+    left: 18%;
+
+}
+
+.coms4{
+    font-family: 'lucida calligraphy';
+    color: grey;
+    font-size: 15px;
+    position: absolute;
+    top: 86%;
+    left: 34%;
+
+}
+
+.langue{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+
+.divers{
+    position: absolute;
+    top: 30%;
+    left: 65%;
+}
+
+.d{
+    position: absolute;
+    top: 90%;
+    left: 55%;
+    font-size: 15px;
+    font-family:'arial black';
+    color: white;
+}
